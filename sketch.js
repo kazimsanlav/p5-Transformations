@@ -1,6 +1,7 @@
 // Functions Covered: rotate(), translate(), scale(), push() = save, pop() = restore
 // setTimeout() -> execute the code after some delay. Can make recurcive calls.
 // setInterval(), frameCount
+// KeyIdea : Closure -> function declared within another(in latter's closure)
 
 var canvas, button1, button2;
 let rotateObjs = []
