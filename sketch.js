@@ -8,10 +8,10 @@ function setup() {
 	canvas = createCanvas(windowWidth, windowHeight);
 	button1 = createButton('rainbow');
 	button1.position(windowWidth/2+20, 20);
-	button1.mousePressed(rainbow);
+	button1.mouseClicked(rainbow);
 	button2 = createButton('reset');
 	button2.position(windowWidth/2-60, 20);
-	button2.mousePressed(reset);
+	button2.mouseClicked(reset);
 
 	//style buttons
 	button1.style('background-color', 'purple');
